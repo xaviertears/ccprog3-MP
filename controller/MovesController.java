@@ -3,6 +3,24 @@ import java.util.*;
 public class MovesController {
     private List<Move> moves = new ArrayList<>();
 
+    public MovesController() {
+        // seed default 14 moves
+        addMove("Thunderbolt",  "TM", "Electric");
+        addMove("Quick Attack", "TM", "Normal");
+        addMove("Flamethrower", "TM", "Fire");
+        addMove("Air Slash",    "TM", "Flying");
+        addMove("Psychic",      "TM", "Psychic");
+        addMove("Shadow Ball",  "TM", "Ghost");
+        addMove("Body Slam",    "TM", "Normal");
+        addMove("Hyper Beam",   "TM", "Normal");
+        addMove("Water Gun",    "TM", "Water");
+        addMove("Tackle",       "TM", "Normal");
+        addMove("Rock Throw",   "TM", "Rock");
+        addMove("Rollout",      "TM", "Rock");
+        addMove("Magnitude",    "TM", "Ground");
+        addMove("Sandstorm",    "TM", "Rock");
+    }
+
     public void addMove(String name, String classification, String type) {
         moves.add(new Move(name, "", classification, type, null));
     }
