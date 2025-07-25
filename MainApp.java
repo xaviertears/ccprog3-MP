@@ -13,9 +13,11 @@ import model.Pokemon;
 import model.Move;
 import model.Item;
 import model.Trainer;
+import javax.swing.*;
 
 
-public class MainApp {
+
+public class    MainApp {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new MainApp().init());
     }
