@@ -1,6 +1,4 @@
 // MainApp.java
-import javax.swing.*;
-import java.awt.*;
 import controller.PokedexController;
 import controller.MovesController;
 import controller.ItemsController;
@@ -10,6 +8,12 @@ import view.PokedexPanel;
 import view.MovesPanel;
 import view.ItemsPanel;
 import view.TrainersPanel;
+
+import model.Pokemon;
+import model.Move;
+import model.Item;
+import model.Trainer;
+
 
 public class MainApp {
     public static void main(String[] args) {
