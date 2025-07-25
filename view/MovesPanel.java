@@ -1,4 +1,7 @@
+
 package view;
+import controller.MovesController;
+import model.Move;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
