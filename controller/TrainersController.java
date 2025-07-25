@@ -1,5 +1,6 @@
 // TrainersController.java
 package controller;
+import model.Trainer;
 import java.util.*;
 
 public class TrainersController {
