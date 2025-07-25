@@ -1,4 +1,5 @@
 // TrainersController.java
+package controller;
 import java.util.*;
 
 public class TrainersController {
