@@ -1,8 +1,13 @@
+
+
+
 package view;
+import controller.PokedexController;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.List;
+import model.Pokemon;
 
 public class PokedexPanel extends JPanel {
     private PokedexController controller;
