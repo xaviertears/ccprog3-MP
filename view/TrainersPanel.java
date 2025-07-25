@@ -1,8 +1,11 @@
 package view;
+
+import controller.TrainersController;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.List;
+import model.Trainer;
 
 public class TrainersPanel extends JPanel {
     private TrainersController controller;
