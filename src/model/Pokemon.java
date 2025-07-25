@@ -1,4 +1,6 @@
 // Pokemon.java (model)
+package model;
+
 public class Pokemon {
     private int pokedexNumber;
     private String name;
