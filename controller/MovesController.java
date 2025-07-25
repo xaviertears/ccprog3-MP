@@ -1,4 +1,5 @@
 package controller;
+import model.Move;
 import java.util.*;
 
 public class MovesController {
