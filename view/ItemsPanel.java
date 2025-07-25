@@ -1,6 +1,8 @@
 // ItemsPanel.java
-package view;
 
+package view;
+import controller.ItemsController;
+import model.Item;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
