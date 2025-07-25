@@ -1,4 +1,5 @@
 // PokedexController.java
+package controller;
 import java.util.*;
 
 public class PokedexController {
