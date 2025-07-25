@@ -1,5 +1,6 @@
 // PokedexController.java
 package controller;
+import model.Pokemon;
 import java.util.*;
 
 public class PokedexController {
