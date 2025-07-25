@@ -1,4 +1,6 @@
 // Trainer.java
+package model;
+
 public class Trainer {
     private int id;
     private String name;
