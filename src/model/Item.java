@@ -1,4 +1,6 @@
 // Item.java (model)
+package model;
+
 public class Item {
     private String name;
     private String category;
